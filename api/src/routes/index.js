@@ -16,7 +16,7 @@ const router = Router();
 
 const getApiData = async (page) => {
     try {
-        let apiUrl = ` https://api.rawg.io/api/games?key=${API_KEY}&page=${page}`;
+        let apiUrl = ` https://api.rawg.io/api/games?key=${e0793afa29524d64ab1d0349257acf06}&page=${page}`;
         const apiInfo = await axios.get(apiUrl);
         const apiData = await apiInfo.data.results.map(game => {
             return {
@@ -34,7 +34,7 @@ const getApiData = async (page) => {
 }
 
 const getApiGenres = async () => {
-    let url = `https://api.rawg.io/api/genres?key=${API_KEY}`;
+    let url = `https://api.rawg.io/api/genres?key=${e0793afa29524d64ab1d0349257acf06}`;
     const apiData = await axios.get(url);
     const apiGenres = await apiData.data.results.map(g => g.name);
     return apiGenres;
@@ -42,7 +42,7 @@ const getApiGenres = async () => {
 
 const getApiVgByQuery = async (name) => {
     try {
-        const apiInfo = await axios.get(`https://api.rawg.io/api/games?search=${name}&key=${API_KEY}`);
+        const apiInfo = await axios.get(`https://api.rawg.io/api/games?search=${name}&key=${e0793afa29524d64ab1d0349257acf06}`);
         const apiData = await apiInfo.data.results.map(game => {
             return {
                 img: game.background_image,
@@ -61,7 +61,7 @@ const getApiVgByQuery = async (name) => {
 
 const getApiVgById = async (id) => {
 
-    let url = `https://api.rawg.io/api/games/${id}?key=${API_KEY}`;
+    let url = `https://api.rawg.io/api/games/${id}?key=${e0793afa29524d64ab1d0349257acf06}`;
     const apiInfo = await axios.get(url);
     const apiData = await apiInfo.data;
     const videogame = {
