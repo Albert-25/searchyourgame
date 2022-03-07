@@ -7,6 +7,7 @@ const {
 } = process.env;
 
 console.log("hola mundo")
+console.log("hola mundo")
 let sequelize =
   process.env.NODE_ENV === "production"
     ? new Sequelize({
