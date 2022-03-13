@@ -143,7 +143,7 @@ export default function Home() {
                                     <h2>Loading videogames...</h2>
                                 </div>
                                 <div className="box-img-main">
-                                    <img src={mandocarga} alt="cargando videogames..." />
+                                    <img src={mandocarga} alt="loading videogames..." />
                                 </div>
                             </div>
                             : currentVideogames === "not found"
