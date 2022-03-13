@@ -22,12 +22,12 @@ const SearchBar = () => {
             <div className="searchbar">
                 <input type="text"
                     value={name}
-                    placeholder='buscar videogame'
+                    placeholder='search videogame'
                     onChange={handleInputChange}
                 />
             </div>
             <div className="searchbar-btn">
-                <button type='submit' onClick={handleSumit} >Buscar</button>
+                <button type='submit' onClick={handleSumit} >Search</button>
             </div>
         </div>
     );
