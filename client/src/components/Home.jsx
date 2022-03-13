@@ -74,7 +74,7 @@ export default function Home() {
                     </h1>
                 </div>
                 <div className="container-create">
-                    <Link to="/videogamecreate" className="btn-create"><span className="btn-create-span">Crear videogame</span></Link>
+                    <Link to="/videogamecreate" className="btn-create"><span className="btn-create-span">Create videogame</span></Link>
                 </div>
             </header>
 
