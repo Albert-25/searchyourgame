@@ -140,7 +140,7 @@ export default function Home() {
                         currentVideogames.length === 0 ?
                             <div className="container-carga-main">
                                 <div>
-                                    <h2>Cargando videogames...</h2>
+                                    <h2>Loading videogames...</h2>
                                 </div>
                                 <div className="box-img-main">
                                     <img src={mandocarga} alt="cargando videogames..." />
