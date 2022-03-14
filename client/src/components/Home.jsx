@@ -11,7 +11,7 @@ import mario from "../img/mario.jpg"
 import imglogo from "../img/imglogo.png"
 import mandocarga from "../img/mandocarga.jpg"
 import mario404 from "../img/mario404.gif"
-
+console.log("hola mundo")
 
 export default function Home() {
 
