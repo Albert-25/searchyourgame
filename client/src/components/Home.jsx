@@ -19,7 +19,7 @@ export default function Home() {
     const allGenres = useSelector(state => state.genres)
     const allVideogames = useSelector(state => state.videogames)
     const [currentPage, setCurrentPage] = useState(1)
-    const [videogamesPerPage, setVideogamesPerPage] = useState(15)
+    const [videogamesPerPage, setVideogamesPerPage] = useState(16)
     const numberOfLastVideogame = currentPage * videogamesPerPage;
     const numberOfFirstVideogame = numberOfLastVideogame - videogamesPerPage
     const currentVideogames = allVideogames.slice(numberOfFirstVideogame, numberOfLastVideogame)
