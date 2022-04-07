@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom"
-import Home from "./components/Home"
-import LandingPage from './components/LandingPage';
-import Detail from "./components/Detail";
-import VideogameCreate from "./components/VideogameCreate"
+import Home from "./components/Home/Home"
+import LandingPage from './components/LandingPage/LandingPage';
+import Detail from "./components/Detail/Detail";
+import VideogameCreate from "./components/VideogameCreate/VideogameCreate"
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
           <Route exact path="/" component={LandingPage} />
           <Route path="/home" component={Home} />
           <Route path="/videogamecreate" component={VideogameCreate} />
-          {/* <Route path="/home/:id" component={Detail} /> */}
           <Route path="/detail/:id" component={Detail} />
         </Switch>
       </div>

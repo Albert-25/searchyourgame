@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { getDetail } from '../redux/actions';
+import { getDetail } from '../../redux/actions';
 import { useEffect } from 'react';
-import mario from "../img/mario.jpg"
-import cargaimg from "../img/cargaimg.jpg"
-import mariocarga from "../img/mariocarga.jpg"
+import mario from "../../img/mario.jpg"
+import cargaimg from "../../img/cargaimg.jpg"
+import mariocarga from "../../img/mariocarga.jpg"
 
 const Detail = (props) => {
 

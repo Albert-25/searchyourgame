@@ -1,16 +1,16 @@
 import React from "react";
-import "../styles.css"
+import "../../styles.css"
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getVideogames, filterVideogamesByOrigin, orderByName, getGenres, filterVideogamesByGenre, filterVideogamesByRating } from "../redux/actions";
+import { getVideogames, filterVideogamesByOrigin, orderByName, getGenres, filterVideogamesByGenre, filterVideogamesByRating } from "../../redux/actions";
 import { Link } from "react-router-dom";
-import VideogameCard from "./VideogameCard"
-import Pagination from "./Pagination";
-import SearchBar from "./SearchBar";
-import mario from "../img/mario.jpg"
-import imglogo from "../img/imglogo.png"
-import mandocarga from "../img/mandocarga.jpg"
-import mario404 from "../img/mario404.gif"
+import VideogameCard from "../VideogameCard/VideogameCard.jsx"
+import Pagination from "../Pagination/Pagination.jsx";
+import SearchBar from "../SearchBar/SearchBar.jsx";
+import mario from "../../img/mario.jpg"
+import imglogo from "../../img/imglogo.png"
+import mandocarga from "../../img/mandocarga.jpg"
+import mario404 from "../../img/mario404.gif"
 console.log("hola mundo")
 
 export default function Home() {

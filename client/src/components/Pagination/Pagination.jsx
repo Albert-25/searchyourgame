@@ -1,5 +1,5 @@
 import React from 'react';
-import { ButtonPagination } from "../styles"
+import { ButtonPagination } from "./styles"
 
 const Pagination = ({ videogamesPerPage, allvideogames, paginado, currentPage }) => {
     const pageNumbers = []
