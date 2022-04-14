@@ -1,5 +1,4 @@
 import React from "react";
-import "../../styles.css"
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getVideogames, filterVideogamesByOrigin, orderByName, getGenres, filterVideogamesByGenre, filterVideogamesByRating } from "../../redux/actions";
@@ -11,7 +10,7 @@ import mario from "../../img/mario.jpg"
 import imglogo from "../../img/imglogo.png"
 import mandocarga from "../../img/mandocarga.jpg"
 import mario404 from "../../img/mario404.gif"
-console.log("hola mundo")
+import "./Home.css"
 
 export default function Home() {
 

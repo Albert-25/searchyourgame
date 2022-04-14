@@ -1,0 +1,148 @@
+
+.container-box {
+    background-image: url("../../img/videogame.png");
+    height: 100vh;
+}
+
+.div-form {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-box .container-form {
+    background-color: rgba(94, 126, 107, 0.198);
+    margin: 0px 720px;
+    border-radius: 12px;
+    border: 2px solid #151515;
+}
+
+.container-inputs .input-box {
+    margin-bottom: 20px;
+}
+
+.input-genres select,
+textarea,
+.container-inputs input {
+    width: 400px;
+    color: #e9eef2;
+    background-color: #151515;
+}
+
+.container-genres-shown {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.box-genre-shown {
+    display: flex;
+    margin: 10px;
+    background-color: #e9eef2;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.box-genre-shown div {
+    margin-left: 10px;
+    background-color: red;
+    width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.container-btn-submit .disabled {
+    cursor: not-allowed;
+}
+
+.container-box textarea,
+.container-box input,
+.input-genres select {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: 2px solid #151515;
+    padding: 5px;
+    outline: none;
+}
+
+
+.input-box input:focus {
+    border: 2px solid #e9eef2;
+    outline: none;
+}
+
+.container-btn-submit {
+    text-align: center;
+}
+
+.container-btn-submit button {
+    background-color: #151515;
+    border: none;
+    border-radius: 10px;
+    color: #e9eef2;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.h1-create {
+    text-align: center;
+}
+
+.container-btn-back-create {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container-btn-back-create button {
+    background-color: #151515;
+    border: none;
+    border-radius: 10px;
+    color: #e9eef2;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.showerror .error {
+    color: red;
+    font-weight: 600;
+}
+
+
+.container-box .name {
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.container-box .container-form {
+    margin-bottom: 40px;
+}
+
+.h1-create {
+    color: #1E8449;
+    background-color: #151515;
+    margin: 0px 70px;
+    border-radius: 12px;
+
+}
+
+
+.container-box .container-form {
+    background-color: #535557;
+}
+
+
+.container-inputs .input-box .name {
+    color: #e9eef2;
+}
+
+form .col .name {
+    color: #e9eef2;
+}

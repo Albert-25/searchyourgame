@@ -1,4 +1,5 @@
 import React from "react";
+import "./VideogameCard.css"
 
 export default function Card({ img, name, genres }) {
     return (

@@ -1,0 +1,52 @@
+
+.container-videogames-card {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 17px;
+    padding: 0px 270px;
+    padding-bottom: 20px;
+
+}
+
+.container-img-vg {
+    width: 100%;
+    height: 300px;
+}
+
+.container-img-vg img {
+    width: 100%;
+    height: 100%;
+    border-start-start-radius: 12px;
+    border-start-end-radius: 12px;
+}
+
+.container-videogames-card .link {
+    text-decoration: none;
+}
+
+
+.div-name h4 {
+    display: inline;
+}
+
+.videogames-name {
+    background-color: #202020;
+    color: white;
+    padding: 10px;
+    border-end-end-radius: 12px;
+    border-end-start-radius: 12px;
+}
+
+.div-name {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.videogames-card {
+    transition: all 0.3s;
+}
+
+.videogames-card:hover {
+    transform: scale(1.1);
+}

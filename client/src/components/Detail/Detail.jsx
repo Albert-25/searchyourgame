@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import mario from "../../img/mario.jpg"
 import cargaimg from "../../img/cargaimg.jpg"
 import mariocarga from "../../img/mariocarga.jpg"
+import "./Detail.css"
 
 const Detail = (props) => {
 

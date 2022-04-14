@@ -1,0 +1,30 @@
+
+.container-nav-pagination {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination .number-li {
+    list-style: none;
+    margin: 0px 7px;
+}
+
+.pagination .number-li .number-a {
+    background-color: #1E8449;
+    padding: 9px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #151515;
+}
+
+.pagination .number-li .number-a:hover {
+    background-color: #424949;
+    color: #f2f2f2;
+}

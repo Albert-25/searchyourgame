@@ -1,0 +1,21 @@
+.Landingimg {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-lp {
+    position: fixed;
+}
+
+.startbutton {
+    position: absolute;
+    bottom: 45%;
+    left: 45%;
+    opacity: 0.6;
+    transition: all 0.7s;
+}
+
+.startbutton:hover {
+    opacity: 0.8;
+    transform: scale(1.3);
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"
 import landingimg from "../../img/landingimg.jpg"
 import startbutton from "../../img/startbutton.png"
+import "./LandingPage.css"
 
 export function LandingPage() {
     return (
