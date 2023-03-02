@@ -3,7 +3,7 @@ import axios from "axios"
 
 export function getVideogames() {
     return async function (dispatch) {
-        var json = await axios.get("/videogames");
+        var json = await axios.get("searchyourgame-production.up.railway.app/videogames");
         console.log("function getVideogames()=>> ", json)
         console.log("json.data ", json.data)
         return dispatch({
