@@ -62,6 +62,7 @@ export default function Home() {
         setCurrentPage(1)
         setOrdenRating(`ordenado ${e.target.value}`)
     }
+    console.log("currentVideogames ", currentVideogames)
 
     return (
         <div >
