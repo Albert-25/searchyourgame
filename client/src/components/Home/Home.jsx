@@ -64,7 +64,9 @@ export default function Home() {
     }
     console.log("currentVideogames ", currentVideogames)
     console.log("allVideogames ", allVideogames)
-    
+    console.log("numberOfFirstVideogame", numberOfFirstVideogame)
+    console.log("numberOfLastVideogame", numberOfLastVideogame)
+
     return (
         <div >
             <header className="header">
