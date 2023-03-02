@@ -21,7 +21,7 @@ const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
 
 
-
+// haciendo un commit para que las variables de entorno en vercel surtan efecto
 
 // Syncing all the models at once.
 conn.sync({ force: false }).then(() => {
