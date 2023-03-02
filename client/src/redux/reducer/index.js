@@ -12,7 +12,8 @@ function rootReducer(state = initialState, action) {
         case "GET_VIDEOGAMES":
             return {
                 ...state,
-                videogames: Array.isArray(action.payload) && action.payload,
+                //Array.isArray(action.payload) && 
+                videogames: action.payload,
                 allVideogames: action.payload,
             }
 
