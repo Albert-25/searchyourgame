@@ -12,7 +12,7 @@ function rootReducer(state = initialState, action) {
         case "GET_VIDEOGAMES":
             return {
                 ...state,
-                videogames: Array.isArray(action.payload) && action.payload,
+                videogames: action.payload,
                 allVideogames: action.payload,
             }
 
@@ -44,7 +44,6 @@ function rootReducer(state = initialState, action) {
             let videogamesByRating
 
             if (action.payload === "asc") {
-                console.log(action.payload)
                 videogamesByRating = state.videogames.sort(function (a, b) {
                     if (a.rating < b.rating) {
                         return -1
@@ -57,7 +56,6 @@ function rootReducer(state = initialState, action) {
             }
 
             if (action.payload === "des") {
-                console.log(action.payload)
                 videogamesByRating = state.videogames.sort(function (a, b) {
                     if (a.rating > b.rating) {
                         return -1

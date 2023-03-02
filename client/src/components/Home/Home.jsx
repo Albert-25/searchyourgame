@@ -21,7 +21,7 @@ export default function Home() {
     const [videogamesPerPage, setVideogamesPerPage] = useState(16)
     const numberOfLastVideogame = currentPage * videogamesPerPage;
     const numberOfFirstVideogame = numberOfLastVideogame - videogamesPerPage
-    const currentVideogames = Array.isArray(allVideogames) && allVideogames.slice(numberOfFirstVideogame, numberOfLastVideogame)
+    const currentVideogames = allVideogames.slice(numberOfFirstVideogame, numberOfLastVideogame)
     const [orden, setOrden] = useState("")
     const [ordenRating, setOrdenRating] = useState("")
 
@@ -62,10 +62,6 @@ export default function Home() {
         setCurrentPage(1)
         setOrdenRating(`ordenado ${e.target.value}`)
     }
-    console.log("currentVideogames ", currentVideogames)
-    console.log("allVideogames ", allVideogames)
-    console.log("numberOfFirstVideogame", numberOfFirstVideogame)
-    console.log("numberOfLastVideogame", numberOfLastVideogame)
 
     return (
         <div >
