@@ -63,7 +63,8 @@ export default function Home() {
         setOrdenRating(`ordenado ${e.target.value}`)
     }
     console.log("currentVideogames ", currentVideogames)
-
+    console.log("allVideogames ", allVideogames)
+    
     return (
         <div >
             <header className="header">
