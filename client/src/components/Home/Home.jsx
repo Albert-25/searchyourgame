@@ -148,7 +148,7 @@ export default function Home() {
                             : currentVideogames === "not found"
                                 ? <div className="container-carga-main">
                                     <div>
-                                        <h2>Videogame no encontrado :(</h2>
+                                        <h2>Videogame no encontrado :/ </h2>
                                     </div>
                                     <div className="box-img-main">
                                         <img src={mario404} alt="videogame no encontrado" />
