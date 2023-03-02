@@ -116,7 +116,7 @@ export default function Home() {
                             <select onChange={handleFilterGenre}>
                                 <option value="all">All</option>
                                 {
-                                    allGenres && allGenres.map(g => {
+                                    Array.isArray(allGenres)  &&  allGenres.map(g => {
                                         return (
                                             <option key={g.id} value={g.name}>{g.name}</option>
                                         )
