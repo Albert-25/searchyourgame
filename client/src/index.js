@@ -6,7 +6,9 @@ import { Provider } from "react-redux"
 import { store } from "./redux/store"
 import  dotenv from "dotenv";
 import axios from "axios"
-dotenv.config()
+const dotenvSafe = require("dotenv-safe");
+
+dotenvSafe.config()
 // haciendo un commit para que las variables de entorno en vercel surtan efecto
 axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001"
 
