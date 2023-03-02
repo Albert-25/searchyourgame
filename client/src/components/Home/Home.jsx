@@ -29,7 +29,7 @@ export default function Home() {
         dispatch(getVideogames())
         dispatch(getGenres())
         dispatch({ type: "SET_DETAIL" })
-    }, [dispatch])
+    }, [dispatch, allVideogames])
 
 
     const paginado = (pageNumber) => {
