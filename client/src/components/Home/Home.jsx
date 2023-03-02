@@ -156,7 +156,7 @@ export default function Home() {
                                 </div>
                                 : <div className="container-videogames-card">
                                     {
-                                        Array.isArray(currentVideogames) && currentVideogames.map(v => {
+                                        currentVideogames && currentVideogames.map(v => {
                                             return (
                                                 <Link to={`/detail/${v.id}`} key={v.id} className="link">
                                                     <VideogameCard name={v.name} img={v.img ? v.img : mario} genres={v.genres} />
